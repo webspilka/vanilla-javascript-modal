@@ -20,6 +20,7 @@ class Modal {
     
     open() {
         this.modal.classList.add('show-modal');
+        this.isOpen = true;
         setTimeout(() => {
             this.animateIn();
         }, 10);
